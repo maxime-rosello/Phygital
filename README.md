@@ -13,13 +13,13 @@ The objective is to create a new ERC721Phygital extension that we could publish 
 
 Truffle is used for deployement and testing, you will need to install it:
 
-npm install -g truffle
+#### npm install -g truffle
 
 ### Commands
 
-truffle build
+#### truffle build
 
-truffle test
+#### truffle test
 
 
 ## Your local (fake) Ethereum blockchain: Ganache
