@@ -1,6 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# New Phygital NFT Standard
+
+This project aims at developing a new ERC-721 extension for Phygital NFTs.
+
+It consits in a simple React app used for Minting NFTs. All contracts standards used in the minting process are included in the folder so that they can be customized. Nothing is pulled from Openzeppelin.
+
+The objective is to create a new ERC721Phygital extension that we could publish on Openzeppelin.
+
+## Truffle
+
+### Installation
+
+Truffle is used for deployement and testing, you will need to install it:
+
+npm install -g truffle
+
+### Commands
+
+truffle build
+
+truffle test
+
+
+## Your local (fake) Ethereum blockchain: Ganache
+
+A Ganache local Ethereum blockchainb is used to simulate accounts, transaction and deploy smart contracts.
+
+After installing Ganache, open it and click on "Quickstart Ethereum".
+
+This React app is set up to interact with your Metamask once you open the page, but there is some required configuration for Metamask to interact with Ganache.
+
+### Connect your Metamask extension to the Ganache blockchain:
+
+Your Ganache network is defined by its RPC adress, which should be: HTTP://127.0.0.1:7545
+
+Under Metamask, add a new network and type this RPC URL.
+
+This should only be done once.
+
+### Add your account:
+
+Everytime Ganache creates a new fake Ethereum blockchain, it generates fake accounts with fakes private and public keys. You will need to create the corresponding account under Metamask everytime you generate a new network.
+
+Make sure you are connected to the Ganache network under Metamask.
+
+Under Metamask, click "Import an account".
+
+Under Ganache, choose any generated address and click "Show keys". Copy and paste the private key as your new Metamask account. You are all set and should see 100 ETH on your Metamask Account.
+
 
 ## Available Scripts
 
@@ -68,3 +115,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+"# Phygital" 
