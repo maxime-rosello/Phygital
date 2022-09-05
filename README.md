@@ -17,14 +17,14 @@ Truffle is used for deployement and testing, you will need to install it:
 
 ### Commands
 
-#### `truffle build`
+#### `truffle build` builds the smart contracts into the /build/ folder. 
 
 #### `truffle test`
 
 
-## Your local (fake) Ethereum blockchain: Ganache
+## Ganache
 
-A Ganache local Ethereum blockchainb is used to simulate accounts, transaction and deploy smart contracts.
+Ganache provides a local (fake) Ethereum blockchain. We use it to to simulate accounts, transaction and deploy smart contracts without the need for paying gas fees.
 
 After installing Ganache, open it and click on "Quickstart Ethereum".
 
@@ -47,7 +47,6 @@ Make sure you are connected to the Ganache network under Metamask.
 Under Metamask, click "Import an account".
 
 Under Ganache, choose any generated address and click "Show keys". Copy and paste the private key as your new Metamask account. You are all set and should see 100 ETH on your Metamask Account.
-
 
 ## Available Scripts
 

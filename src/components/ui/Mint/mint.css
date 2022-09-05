@@ -1,0 +1,21 @@
+.form__input input, .form__input textarea {
+    width: 100%;
+    padding: 7px 25px;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 1px solid rgba(221, 221, 221, 0.664);
+    outline: none;
+    border-radius: 5px;
+}
+
+.form__input {
+    margin-bottom: 15px;
+}
+
+.form__input label {
+    margin-bottom: 10px;
+}
+
+.form__input .upload__input {
+    padding: 40px 25px;
+}
